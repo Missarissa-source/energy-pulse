@@ -218,3 +218,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Warehouse
+*.duckdb
+*.duckdb.wal
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Node / Evidence
+node_modules/
+dashboard/.evidence/
+dashboard/build/
+
+# Claude Code personal overrides
+.claude/settings.local.json
